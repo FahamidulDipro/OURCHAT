@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+   
+}
+*:focus {
+    outline: none;
+}
+
+.form_container {
+	min-height: auto;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+form{
+    width: 50%;
+}
+form input{
+    width: 100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius: 10px;
+    border:solid thin grey;
+}
+
+h1{
+    text-align: center;
+    padding:20px;
+    font-size: 20px;
+    color:#ffff;
+    background-color: #0a5d54;
+}
+.signup_heading{
+    padding-bottom: 30px;
+}
+
+.insert_message{
+    position: fixed !important;
+    bottom:0;
+    left:50;
+    display:flex;
+    padding:20px;
+    background:white;
+   
+   
+    /* justify-content: space-around; */
+   
+   
+}
+#submit {
+	/* height: 50px; */
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-size: 20px;
+	background: #0a5d54;
+	color: white;
+	font-weight: bold;
+}
+.chat_content{
+    position: relative !important;
+    overflow-y: auto;
+ 
+    margin-bottom: 250px;
+}
+
+.chat_container{
+    background:white;
+   
+  
+}
+@media only screen and (max-width: 720px){
+    #submit {
+        width: 100% !important;
+    }
+    form{
+        width: 90%;
+    }
+}
