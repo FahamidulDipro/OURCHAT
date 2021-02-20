@@ -10,7 +10,7 @@ if(isset($_POST['message'])){
 <?php
 session_start();
 if(isset($_POST['readMessage'])){
-$sql1 = "SELECT * FROM `chatpage`";
+$sql1 = "SELECT * FROM `chatpage` ORDER BY `chat_id` ASC";
 $res = mysqli_query($con,$sql1);
 while($row = mysqli_fetch_assoc($res)){
     $serialBy = $row['chat_user_id'];
