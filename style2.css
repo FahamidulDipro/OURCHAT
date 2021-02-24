@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x:hidden !important;
+    overflow-x: hidden; 
 }
 
 
@@ -75,7 +75,7 @@ h1{
 .chat_content{
     position: relative !important;
     overflow-y: auto !important;
-    
+    width: 50%;
     margin-bottom: 250px;
 }
 textarea{
@@ -84,6 +84,7 @@ textarea{
 .chat_container{
     background:transparent;
     margin-top: 100px;
+    /* width: 50%; */
    
   
 }
