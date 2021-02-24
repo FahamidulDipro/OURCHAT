@@ -17,16 +17,15 @@ session_start();
 </head>
 
 <body>
+
 <style>
 body{
     font-family: 'Roboto', sans-serif;
       background:url('https://us.123rf.com/450wm/aldanna/aldanna1502/aldanna150200028/36427424-mobile-apps-pattern-with-music-chat-gallery-speaking-bubble-email-magnifying-glass-shopping-search-n.jpg?ver=6');
     background-attachment: fixed !important;
 }
-
-.chat_container{
- /* background-attachment: fixed !important; */
 </style>
+
 <?php
 if($_SESSION['loggedin'] && $_SESSION['loggedin']==true){
   echo'<div class="name_container">

@@ -22,7 +22,7 @@ while($row = mysqli_fetch_assoc($res)){
     $pic = $rowUser['pic'];
 
     if($name == $_SESSION['username']){
-        echo '<div class="chat_div" style="display:flex;margin-top:10px; background:transparent; width:50%;float:left;padding:5px;margin:10px;border-radius:5px;">
+        echo '<div class="chat_div" style="display:flex;margin-top:10px; background:transparent;width:20%;float:left;padding:5px;margin:10px;border-radius:5px;">
     
         <img src="'.$pic.'" style="height:50px;width:50px;object-fit:cover;border-radius:50%;">
         <div style="background:#e2ffc7; box-shadow:2px 2px 5px; width:100%;margin-left:20px;padding:5px;border-radius:10px;">
@@ -34,7 +34,7 @@ while($row = mysqli_fetch_assoc($res)){
         </div>';
     }
     else{
-        echo '<div class="chat_div" style="display:flex;margin-top:10px; background:transparent; width:50%;float:right;padding:5px;margin:10px;border-radius:5px;">
+        echo '<div class="chat_div" style="display:flex;margin-top:10px; background:transparent; width:20%;float:right;padding:5px;margin:10px;border-radius:5px;">
     
         <img src="'.$pic.'" style="height:50px;width:50px;object-fit:cover;border-radius:50%;">
         <div style="background:white; box-shadow:2px 2px 5px;width:100%;margin-left:20px;padding:5px;border-radius:10px;">

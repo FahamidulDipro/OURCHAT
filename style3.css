@@ -68,8 +68,9 @@ h1{
 .chat_content{
     position: relative !important;
     overflow-y: auto;
- 
+    overflow-x: hidden !important;
     margin-bottom: 250px;
+    width: 50% !important;
 }
 
 .chat_container{
