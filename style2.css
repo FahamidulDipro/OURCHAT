@@ -75,7 +75,7 @@ h1{
 .chat_content{
     position: relative !important;
     overflow-y: auto !important;
-    width: 50%;
+    width: 80%;
     margin-bottom: 250px;
 }
 textarea{
